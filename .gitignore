@@ -1,0 +1,19 @@
+node_modules/          # NPM packages (NEVER commit these)
+dist/                  # Build output
+build/                 # Build folder
+.env                   # Environment secrets
+.env.local            # Local environment variables
+
+*.log                  # Log files
+.vite                  # Vite cache
+.cache                 # Various caches
+*.tsbuildinfo         # TypeScript build info
+
+.vscode/              # VS Code settings
+.idea/                # WebStorm/IntelliJ
+.DS_Store             # MacOS files
+Thumbs.db             # Windows thumbnails
+
+# pnpm-lock.yaml      # Uncomment if you don't want to commit lock files
+# package-lock.json
+# yarn.lock
